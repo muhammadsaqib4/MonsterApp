@@ -1,0 +1,77 @@
+.container{
+    display: flex;
+    justify-content:center;
+    flex-direction:row;
+    /* display: inline; */
+    
+    
+}
+.monster{
+    
+    
+    box-shadow: 0px 1px 15px -5px;
+    text-align: center;
+    padding: 15px;
+    background-color:rgba(72,177,247,.25);
+    height: 13em;
+    width: 16em;
+    margin: 5%;
+    color: rgb(9 46 70);
+    border-radius:12px ;
+    -webkit-border-radius:12px ;
+    -moz-border-radius:12px ;
+    -ms-border-radius:12px ;
+    -o-border-radius:12px ;
+}
+
+.monster:hover{
+    background-color: rgb(175, 208, 235);
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+}
+
+.imgStyle{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    
+}
+
+
+p{
+    line-height:.5em;
+    
+    font-size: 12px;
+}
+
+.head{
+    background-color: rgb(9 46 70);
+    color: rgb(12, 202, 196);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    padding: 4% 0% 4% 0%;
+    font-size: 30px;
+    font-family: cursive;
+    
+    
+}
+
+input{
+    border: 3px solid rgb(12, 202, 196);
+
+    font-size: 16px;
+    padding: 12px;
+    width: 40%;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+    
